@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>eleVR Web Player</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-touch-fullscreen" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/slideout.css">
+		<link rel="stylesheet" href="css/gallery.css">
+
+		<!-- JS-lib -->
+		<script src="lib/jquery.min.js" type="text/javascript"></script>
+		<script src="lib/slideout.min.js"></script>
+
+		<!-- JS-src -->
+		<script src="src/main.js" type="text/javascript"></script>
+		<script>$(function(){main();});</script>
+	</head>
+
+	<body>
+
+		<!-- Slideout menu -->
+		<nav id="menu">
+			<h3 id="menu_player">Player</h3>
+			<h3 id="menu_gallery">Gallery</h3>
+			<h3 id="menu_download">Download</h3>
+			<h3 id="menu_settings">Settings</h3>
+			<h3 id="menu_about">About</h3>
+		</nav>
+		<main id="panel">
+			<h1>☰</h1>
+		</main>
+
+		<iframe src="elevr.html" id="frame"></iframe>
+    </body>
+</html>

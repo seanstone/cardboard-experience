@@ -1,0 +1,38 @@
+.slideout-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 128px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+  color: #dddddd;
+  padding: 24px;
+  background: rgba(21, 101, 192, 0.6);
+  z-index: 1;
+}
+
+.slideout-menu h3 {
+	font-weight: normal;
+}
+
+.slideout-panel {
+  position:relative;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  will-change: transform;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}

@@ -1,0 +1,32 @@
+{
+	"name": "Cardboard Experience",
+	"short_name": "Cardboard Experience",
+	"background_color": "#ffffff",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"start_url": "index.html",
+	"xwalk_app_version": "0.1",
+	"xwalk_command_line": "",
+	"xwalk_package_id": "io.seanstone.cardboard_experience",
+	"xwalk_target_platforms": [
+		"android"
+		],
+	"xwalk_android_animatable_view": true,
+	"xwalk_android_keep_screen_on": true,
+	"xwalk_android_permissions": [
+		"ACCESS_NETWORK_STATE",
+		"ACCESS_WIFI_STATE",
+		"INTERNET"
+		],
+	"xwalk_windows_update_id": "37698825-0995-0548-4211-906312732025",
+	"xwalk_hosts": [
+		"http://www.youtube.com/",
+		"https://*.googlevideo.com/"
+		],
+	"icons": [
+		{
+	  		"src": "icon.png",
+	  		"sizes": "72x72"
+		}
+	]
+}
