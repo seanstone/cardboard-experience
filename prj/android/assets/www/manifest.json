@@ -21,6 +21,7 @@
 	"xwalk_windows_update_id": "37698825-0995-0548-4211-906312732025",
 	"xwalk_hosts": [
 		"http://www.youtube.com/",
+		"http://*.googlevideo.com/",
 		"https://*.googlevideo.com/"
 		],
 	"icons": [

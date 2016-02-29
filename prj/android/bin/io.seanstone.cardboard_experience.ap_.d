@@ -234,6 +234,7 @@ D:\Desktop\io.seanstone.cardboard_experience\prj\android\bin\res\drawable-xhdpi\
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\bin\res\drawable-xhdpi\ic_launcher.png \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\bin\res\mipmap-hdpi\crosswalk_icon.png \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www \
+D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\about.html \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\crosswalk.ico \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\css \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\demo.webm \
@@ -246,8 +247,10 @@ D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\lib \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\manifest.json \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\mars.webm \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\README.md \
+D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\settings.html \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\SimpleAsyncHTTPServer.py \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\src \
+D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\css\about.css \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\css\gallery.css \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\css\main.css \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\css\slideout.css \
@@ -272,7 +275,6 @@ D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\eleVR\js\web
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\lib\client.js \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\lib\gl-matrix.js \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\lib\jquery.min.js \
-D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\lib\masonry.pkgd.min.js \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\lib\slideout.min.js \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\lib\util.js \
 D:\Desktop\io.seanstone.cardboard_experience\prj\android\assets\www\lib\youtube-video.js \

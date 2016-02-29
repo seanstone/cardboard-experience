@@ -374,9 +374,6 @@ loadVideo: function(videoFile) {
         //alert("Downloading video data");
 
   	}, false);
-	//
-
-  	//video.src = videoFile;
 
   	if (videoObjectURL && videoObjectURL !== videoFile) {
     	URL.removeObjectURL(oldObjURL);

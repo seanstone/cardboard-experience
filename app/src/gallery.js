@@ -14,7 +14,7 @@ function yt_search() {
 	var request = gapi.client.youtube.playlistItems.list({
 	    part: "snippet,id",
 		playlistId: "PLU8wpH_LfhmvMokgsfQtiHNsP96bU7cnr",
-	    maxResults: 30,
+	    maxResults: 48,
 	    order: "viewCount"
 	});
 	// execute the request
@@ -27,13 +27,15 @@ function yt_search() {
 }
 
 function yt_add(item) {
-	gallery.innerHTML +=
-		"<div class='item'>" +
-			'<a href="#' + item.snippet.resourceId.videoId + '">' +
-				"<img src='" + item.snippet.thumbnails.high.url + "' />" +
-			"</a>" +
-			"<div class='title'>" + item.snippet.title + "</div>" +
-		"</div>";
+	try {
+		gallery.innerHTML +=
+			"<div class='item'>" +
+				'<a href="#' + item.snippet.resourceId.videoId + '">' +
+					"<img src='" + item.snippet.thumbnails.high.url + "' />" +
+				"</a>" +
+				"<div class='title'>" + item.snippet.title + "</div>" +
+			"</div>";
+	} catch(err) {};
 }
 
 function yt_load(id) {

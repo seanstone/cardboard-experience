@@ -16,16 +16,21 @@ body {
 }
 
 .item {
-	width: 240px;
+	width: 33%;
 	display: inline-block;
 	vertical-align: text-top;
 }
 
 .title {
-	width: 200px;
+	position: relative;
+	left: 10%;
+	width: 80%;
 	display: block;
+	font-size: 90%;
 }
 
 img {
-	width: 200px;
+	position: relative;
+	left: 10%;
+	width: 80%;
 }
